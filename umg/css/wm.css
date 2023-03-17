@@ -1,0 +1,78 @@
+.naglowek{
+    background-color: #7BC2EA;
+    margin-bottom: 15px;
+    margin-left: auto;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+}
+
+
+#tetrisboard {
+    position: absolute;
+    top: 57%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid rgb(6, 6, 103);
+  }
+
+  
+
+  #blok{
+    display: flex;
+    flex-wrap: wrap;
+    visibility: hidden;
+  }
+
+  #start {
+    visibility:"hidden";
+    display: block;
+      padding: 1.3em 3em;
+      font-weight: bold;
+      font-size: 1.1rem;
+      color: #FFF;
+      text-decoration: none;
+      margin: 2em auto;
+      background:rgb(6, 6, 103);
+      border-radius: 3em;
+      text-shadow: none;
+      border:0;
+      cursor: pointer;
+  }
+
+  #wynik{
+    font-weight: bold;
+      color:rgb(6, 6, 103);
+  }
+
+  #dalej{
+    display: block;
+    padding: 1.3em 3em;
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #FFF;
+    text-decoration: none;
+    margin: 2em auto;
+    background:rgb(6, 6, 103);
+    border-radius: 3em;
+    text-shadow: none;
+    border:0;
+    cursor: pointer;
+}
+
+
+#kontener{
+  position: absolute;
+  font-weight: bold;
+  font-size: 30px;
+  color:rgb(6, 6, 103);
+  left: 25%;
+}
+
+#odsw{
+  position: absolute;
+  top: 25%;
+  left:33%;
+}

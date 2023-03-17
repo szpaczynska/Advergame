@@ -1,0 +1,145 @@
+
+.naglowek{
+    background-color: #7BC2EA;
+    margin-bottom: 15px;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+}
+
+  .element {
+    flex-grow: 1;
+    width: 23%;
+    height: auto;
+  }
+
+  img{
+    width: 80%;
+  }
+
+  img:hover {
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    z-index: 0;
+}
+/* 
+#wyniki{
+    margin-bottom: 15px;
+    margin-top: 15px;
+    background-color:aliceblue;
+    color: rgb(6, 6, 103);
+    text-align: center;
+ 
+} */
+
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: #7BC2EA;
+    color: white;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+  }
+
+
+  button{
+    display: block;
+    max-width: 20em;
+    text-align: center;
+    padding: 1.3em 3em;
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #FFF;
+    text-decoration: none;
+    margin: 2em auto;
+    background:rgb(6, 6, 103);
+    border-radius: 3em;
+    line-height: 1.1em;
+    text-shadow: none;
+    transition: 0.5s background-color, 0.5s box-shadow;
+    box-shadow: 0 2px 5px rgba(255, 99, 71, 0.4);
+    border:0;
+    cursor: pointer;
+}
+
+button:hover {
+  transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  z-index: 0;
+}
+
+.instr{
+  margin-bottom: 15px;
+  color: rgb(6, 6, 103);
+  text-align: center;
+  text-shadow: 2px 2px 4px #7BC2EA;
+}
+
+#button2{
+    width: auto;
+    height: auto;
+    display:inline-block;
+  }
+
+#button3{
+    width: auto;
+    height: auto;
+    display:inline-block;
+    background:rgba(6, 6, 103, 0.844);
+  }
+
+#buttony{
+  margin-left: 32%;
+  position:absolute;
+    bottom: 10%;
+}
+#email { 
+    padding:3px; 
+    font-size:16px; 
+    border-color:#cccccc; 
+    border-style:solid; 
+    border-width:0px; 
+    border-radius:13px; 
+    text-shadow:0px 0px 0px rgba(42,42,42,.76); 
+    box-shadow: 0px 0px 5px 0px rgba(42,42,42,.75); 
+    font-weight:normal; 
+    font-style:none; 
+    font-family:sans-serif;  
+}
+#email:focus { outline:none; } 
+
+#wyniki {
+    margin: 2em auto;
+    line-height: 1.1em;
+    display: block;
+    /* max-width: 20em; */
+    padding:3px; 
+    font-size:16px; 
+    border-width:2px; 
+    border-color:#cccccc; 
+    border-style:solid;  
+    /* border-radius: 3em;   */
+    background-color:aliceblue; 
+    text-align:center; 
+    text-shadow:0px 0px 0px rgba(42,42,42,.75); 
+    box-shadow: 0px 0px 5px 0px rgba(28,10,94,.40);  
+}
+#wyniki:focus { outline:none; } 
+/* 
+#calosc h2{
+  text-align: center;
+} */
+
+#div_email{
+  position:absolute;
+  bottom: 45%;
+  left:32%;
+}

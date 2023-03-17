@@ -1,0 +1,102 @@
+.naglowek{
+    background-color: #7BC2EA;
+    margin-bottom: 15px;
+    margin-left: auto;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+}
+
+#snakeboard {
+    position: absolute;
+    top: 60%;
+    left:50%;
+    transform: translate(-50%, -50%);
+  }
+
+#start {
+  visibility:"hidden";
+  display: block;
+    padding: 1.3em 3em;
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #FFF;
+    text-decoration: none;
+    margin: 2em auto;
+    background:rgb(6, 6, 103);
+    border-radius: 3em;
+    text-shadow: none;
+    border:0;
+    cursor: pointer;
+}
+
+  #postep{
+    width: 400px;
+    height: 20px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    visibility: hidden;
+    position: absolute;
+    top: 25%;
+    left:37%;
+    border-radius: 10px;
+}
+
+#postep button
+{
+    width: 40px;
+}
+
+#paliwo_div
+{
+  display: flex;
+  flex-wrap: wrap;
+  visibility: hidden;
+  margin-left: 5%;
+}
+
+#paliwo
+{
+  width: 80px;
+  height: 80px;
+}
+
+h2{
+  font-weight: bold;
+    color:rgb(6, 6, 103);
+}
+
+#koniec{
+  position: absolute;
+  font-weight: bold;
+  font-size: 30px;
+  color:rgb(6, 6, 103);
+  left: 15%;
+}
+
+#dalej{
+  display: block;
+  padding: 1.3em 3em;
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #FFF;
+  text-decoration: none;
+  margin: 2em auto;
+  background:rgb(6, 6, 103);
+  border-radius: 3em;
+  text-shadow: none;
+  border:0;
+  cursor: pointer;
+}
+
+#wynik_koncowy{
+    position: absolute;
+    font-weight: bold;
+    font-size: 40px;
+    color:rgb(6, 6, 103);
+    top: 25%;
+    left:25%;
+  }
